@@ -1,0 +1,33 @@
+.jumbotron {
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-clip: border-box;
+    object-fit: cover;
+    height: 70vh;
+}
+
+#service {
+    background-color: rgb(60, 60, 228);
+}
+
+.text-p {
+    color: white;
+}
+
+.text-jumbotron {
+    padding-top: 150px;
+}
+
+@media (min-width: 992px) {
+    .jumbotron {
+        height: 75vh;
+    }
+
+    .text-jumbotron {
+        padding-top: 180px;
+    }
+
+    .text-p {
+        color: black;
+    }
+}
